@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="modal.css"/>
+		<style>
+			
+		</style>
+	</head>
+
+	<body>
+		<!--<div id="confirm">
+			<div class="con_wrap">
+				<div class="con_title">标题</div>
+				<div class="con_img">
+					<img src="danger.jpg" alt="" />
+				</div>
+				<div class="con_content">您是否确定要进行此操作</div>
+				<div class="con_btns">
+					<div class="sb">Sure</div>
+					<div class="eb">Quit</div>
+				</div>
+			</div>
+		</div>-->
+		<div class="zhe"></div>
+		<button id="btn">删除</button>
+		<br><br><br><br><br><br><br><br><brwarning><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="modal.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('#btn').click(function() {
+			$('.zhe').css(
+				'display','block'
+			);
+			window.onmousewheel = document.onmousewhile = function(){
+				return false;
+			}
+			window_confirm(
+				{
+//					type : 'warning',
+//				//	target:'body',//触发弹出框的元素
+//				title: '危险操作', //弹出框标题
+//				content: '是否删除', //弹出框提示信息
+//				sureBtnText: 'OK', //确定按钮的显示文字
+//				exitBtnText: 'quit', //取消按钮的显示文字
+//				titleBg: '#eee', //标题背景色
+//				titleColor: '#000', //标题字体颜色
+//				conBg: '#000', //内容背景色
+//				conColor: '#fff', //内容字体颜色
+//				sbBg: 'green', //确定按钮背景色
+//				sbColor: 'yellow', //确定按钮字体颜色
+//				ebBg: 'red', //取消按钮背景颜色
+//				ebColor: 'blue', //取消按钮字体颜色
+//				sbClick: function() { //确定按钮点击事件
+//					console.log('确定');
+//				},
+//				ebClick: function() { //取消按钮点击事件
+//					console.log('取消');
+//				}
+			});
+		});
+	</script>
+
+</html>
